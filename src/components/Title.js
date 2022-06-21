@@ -14,5 +14,5 @@ class Title extends React.Component {
 export default Title;
 
 Title.propTypes = {
-  headline: PropTypes.string,
-}.isRequisred;
+  headline: PropTypes.string.isRequired,
+};
